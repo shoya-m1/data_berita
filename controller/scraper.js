@@ -59,7 +59,7 @@ module.exports = {
   },
 
   contentArtikels: async (req, res) => {
-    const url = `https://www.detik.com${req.query.slug}`;
+    const url = `https://news.detik.com${req.query.slug}`;
     const resp = await fetch(url, {
       headers: {
         "User-Agent":
