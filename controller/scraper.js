@@ -5,10 +5,9 @@ module.exports = {
   newArtikels: async (req, res) => {
     const page = req.query.page;
     // const url = `https://cekfakta.kompas.com/${page == null ? 1 : page}`;
-    const url = `https://www.detik.com/search/searchnews?query=gempa&page=${page == null ? 1 : page}&result_type=relevansi&fromdatex=31/05/2020&todatex=31/05/2024`;
-    // const url = `https://www.detik.com/search/searchnews?query=bencana%20alam&page=${
-    //   page == null ? 1 : page
-    // }&result_type=relevansi`;
+    // const url = `https://www.detik.com/search/searchnews?query=gempa&page=${page == null ? 1 : page}&result_type=relevansi&fromdatex=31/05/2020&todatex=31/05/2024`;
+    const url = `https://www.detik.com/search/searchnews?query=gempa&page=${page == null ? 1 : page}&result_type=relevansi&siteid=3&fromdatex=31/05/2020&todatex=31/05/2024`;
+
 
     const resp = await fetch(url);
     // console.log(resp);
