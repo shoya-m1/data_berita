@@ -10,7 +10,8 @@ module.exports = {
     // const url = `https://www.detik.com/search/searchnews?query=banjir&page=${page == null ? 1 : page}&result_type=relevansi&siteid=3&fromdatex=31/05/2020&todatex=31/05/2024`;
     // const url = `https://www.detik.com/search/searchnews?query=longsor&page=${page == null ? 1 : page}&result_type=relevansi&siteid=3&fromdatex=31/05/2020&todatex=31/05/2024`;
     // const url = `https://www.detik.com/search/searchnews?query=tornado&page=${page == null ? 1 : page}&result_type=relevansi&siteid=3&fromdatex=31/05/2020&todatex=31/05/2024`;
-    const url = `https://www.detik.com/search/searchnews?query=erupsi&page=${page == null ? 1 : page}&result_type=relevansi&siteid=3&fromdatex=31/05/2020&todatex=31/05/2024`;
+    // const url = `https://www.detik.com/search/searchnews?query=erupsi&page=${page == null ? 1 : page}&result_type=relevansi&siteid=3&fromdatex=31/05/2020&todatex=31/05/2024`;
+    const url = `https://www.detik.com/search/searchnews?query=tsunami&page=${page == null ? 1 : page}&result_type=relevansi&siteid=3&fromdatex=31/05/2020&todatex=31/05/2024`;
 
 
     const resp = await fetch(url);
